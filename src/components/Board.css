@@ -1,0 +1,14 @@
+.board-wrapper {
+  border: 1px solid #999;
+  box-shadow: #00000019;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.board-row {
+  display: flex;
+}
+
+.status {
+  margin-bottom: 10px;
+}
