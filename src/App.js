@@ -83,7 +83,7 @@ const App = () => {
         />
       </div>
       <div className="game-info">
-        <div className="status">{status}</div>
+        <div className={`status ${winner && "winner"}`}>{status}</div>
         <ol>{moves}</ol>
       </div>
     </div>
