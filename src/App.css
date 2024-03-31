@@ -49,4 +49,6 @@ li {
   font-size: 28px;
   color: transparent;
   background: linear-gradient(180deg, yellow, 65%, orangered);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
 }
