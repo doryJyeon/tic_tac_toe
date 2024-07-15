@@ -35,6 +35,7 @@ li {
   margin-bottom: 12px;
   padding: 10px 20px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .status {
@@ -46,9 +47,10 @@ li {
 }
 
 .winner {
-  font-size: 28px;
+  font-size: 32px;
   color: transparent;
   background: linear-gradient(180deg, yellow, 65%, orangered);
   -webkit-background-clip: text;
   -moz-background-clip: text;
+  transition: all .3s;
 }

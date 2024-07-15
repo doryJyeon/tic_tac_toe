@@ -34,7 +34,15 @@ const App = () => {
   const winner = calculateWinner(current.squares)
 
   // 안내 멘트
-  status = winner ? `Winner: ${winner}` : `Player: ${xisNest ? "X": "O"}`
+  const handelStatus = () => {
+    const endGame = history.filter(item => item !== null).length > 9 ? true : false
+    if(endGame && winner === null) {
+      return "Game Over!"
+    } else {
+      return winner ? `Winner: ${winner}` : `Player: ${xisNest ? "X": "O"}`
+    }
+  }
+  status = handelStatus()
 
   // 게임 클릭
   const handleClick = i => {
@@ -69,8 +77,6 @@ const App = () => {
   const moveTo = step => {
     setStepNumber(step)
     setXIsNext((step % 2) === 0)
-
-    // calculateWinner(current.squares)
   }
 
 
