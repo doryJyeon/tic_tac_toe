@@ -8,4 +8,4 @@ _How to play?_
 
 
 > 게임 아래 Go to move 버튼을 통해 원하는 시점으로 돌아갈 수 있습니다.
-![image](https://github.com/doryJyeon/readme_file_github/blob/main/tic-tac-toe/history.gif)
+> ![image](https://github.com/doryJyeon/readme_file_github/blob/main/tic-tac-toe/history.gif)
