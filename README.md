@@ -1,4 +1,4 @@
-## tic tac toe
+# tic tac toe
 useState를 활용해 제작한 Tic Tac Toe 게임 입니다.
 
 ## _How to play?_
