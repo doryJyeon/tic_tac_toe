@@ -1,6 +1,8 @@
 # tic tac toe
 useState를 활용해 제작한 Tic Tac Toe 게임 입니다.
 
+[사이트 이동](https://jyeon-tic-tac-toe.netlify.app/)
+
 ## _How to play?_
 두 사람이 각각 X 또는 O 말을 담당해 번갈아가며 놓고, 
 가로나 세로, 대각선으로 3칸을 잇는 데 성공하면 이기는 게임입니다.
